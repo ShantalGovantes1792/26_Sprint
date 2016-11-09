@@ -1,0 +1,73 @@
+/* Inserta tu codigo aqui */
+
+/*BACKGROUNDS*/
+
+.bg-morado-oscuro{
+	background-color: #27102D;
+}
+body{
+	background-color: #534059;
+}
+
+/*MENU*/
+
+li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+}
+font-family: 'Courgette', cursive;
+a{
+	text-decoration: none;
+}
+.logo{
+	width: 50%;
+}
+
+input{
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 2%;	
+}
+
+/*SECTION SPRING CAME*/
+
+.bg-img{
+	background-image: url("../img/header-image.jpg");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*APARTADO FLORES*/
+.img-100{
+	width: 100%;
+	margin:0%;
+}
+
+/*FONTS*/
+
+.Cougtt{
+	font-family: 'Courgette', cursive;
+}
+
+h1{
+	font-size: 5em;
+	color: #EBCB64;
+}
+
+h2{
+	font-size: 2em;
+	color: #EBCB64;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}

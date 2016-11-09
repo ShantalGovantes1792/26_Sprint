@@ -1,7 +1,4 @@
-/* Inserta tu codigo aqui */
-
 /*BACKGROUNDS*/
-
 .bg-morado-oscuro{
 	background-color: #27102D;
 }
@@ -11,43 +8,62 @@ body{
 
 /*MENU*/
 
-li{
+.li-list{
 	list-style: none;
 	display: inline-block;
 	color: white;
+	font-style: italic;
+	padding-right: 3%;
+	/*padding-top: 2%;*/
+	font-size: 1.2em;
 }
-font-family: 'Courgette', cursive;
 a{
 	text-decoration: none;
+	color: white;
 }
-.logo{
-	width: 50%;
+input{
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 2%;
+	width: 100%;
+	margin: 5% 0% 5% 0%;
+	border-style: none;
+	border-radius: 5px;
 }
 
+/*BANNER*/
+#wid{
+	width: 60%;
+	height: 50%;
+	background-color: #27102D;
+	margin: 10% 0% 10% 20%;
+}
 /*SECTION SPRING CAME*/
 
 .bg-img{
 	background-image: url("../img/header-image.jpg");
-	width: 100%;
+	height: 50%;
+	max-width: 100%;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 }
-
 /*APARTADO FLORES*/
 .img-100{
 	width: 100%;
 	margin:0%;
 }
+.fondito{
+	margin: auto;
+}
 
-/*FONTS*/
+/*FONTS AND TITLES*/
 
 .Cougtt{
 	font-family: 'Courgette', cursive;
 }
-
+.OpenSans{
+	font-family: 'Open Sans', sans-serif;
+}
 h1{
-	font-size: 5em;
+	font-size: 6em;
 	color: #EBCB64;
 }
 
@@ -55,7 +71,30 @@ h2{
 	font-size: 2em;
 	color: #EBCB64;
 }
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+}
 
+.amarillo{
+	color:  #EBCB64;
+}
+
+i{
+	border-radius:100%;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 30%;
+
+}
+.redes{
+	display:inline-block;
+	margin: 2%;
+}
+
+span{
+	font-style: italic;
+}
 
 /* Responsive */
 
@@ -64,5 +103,20 @@ h2{
 }
 
 @media screen and (max-width: 600px) {
-
+	h1{
+		font-size: 3em;
+	}
+	h4{
+		font-size: 1em;
+	}
+	header{
+		width: 80%;
+		height: 90%;
+		margin: 0%;
+		position: fixed;
+	}
+	header div nav div div ul li {
+		display: block;
+		float: none;
+	}
 }
