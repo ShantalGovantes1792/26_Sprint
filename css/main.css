@@ -30,6 +30,12 @@ input{
 	border-radius: 5px;
 }
 
+/*CAMBIOS DE IMÁGENES*/
+
+.img1{
+	background-image: url("../img/image4.jpg");
+}
+
 /*BANNER*/
 #wid{
 	width: 60%;
